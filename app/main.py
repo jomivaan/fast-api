@@ -34,7 +34,7 @@ app.include_router(vote.router)
 
 @app.get("/") #decorator- faz com que a função funcione como um path @(nome da app, neste caso app), método HTTP, path do URL
 def root(): #Com async é uma função assincrona e pode ter outro nome sem ser root
-    return {"message": "Welcome to my API!"} 
+    return {"message": "Hello, I am Jose, this is my API!"} 
 
 
 #Podemos usar redoc ou docs para ver os requests
